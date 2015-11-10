@@ -1,3 +1,4 @@
+package logic;
 
 public class CalculatorLogic {
 	String nextCalcAction = "";
@@ -44,6 +45,7 @@ public class CalculatorLogic {
 			System.out.println("This shouldn't happen");
 			break;
 		}
+		currentSum = ""+result;
 		return result;
 	}
 }

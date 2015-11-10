@@ -7,8 +7,9 @@ import javax.swing.JButton;
 
 public class ButtonListener implements ActionListener {
 
-	String nextCalcAction = "";
-	String currentNr = "";
+	public ButtonListener() {
+		
+	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
