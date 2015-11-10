@@ -26,21 +26,22 @@ public class CalculatorLogic {
 		double result = 0.0;
 		switch (nextCalcAction) {
 		case "+":
-
+			result = term1+term2;
 			break;
 		case "-":
-
+			result = term1-term2;
 			break;
 		case "*":
-
+			result = term1*term2;
 			break;
 		case "/":
-
+			result = term1/term2;
 			break;
 		case "=":
-
+			result = term1; 
 			break;
 		default:
+			System.out.println("This shouldn't happen");
 			break;
 		}
 		return result;
