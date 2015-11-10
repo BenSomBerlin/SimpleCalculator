@@ -20,7 +20,29 @@ public class CalculatorLogic {
 		this.currentDezimal += currentDezimal;
 	}
 
-	public double calculate(){
-		return 0.0;
+	public double calculate() {
+		double term1 = Double.parseDouble(currentSum);
+		double term2 = Double.parseDouble(currentDezimal);
+		double result = 0.0;
+		switch (nextCalcAction) {
+		case "+":
+
+			break;
+		case "-":
+
+			break;
+		case "*":
+
+			break;
+		case "/":
+
+			break;
+		case "=":
+
+			break;
+		default:
+			break;
+		}
+		return result;
 	}
 }
